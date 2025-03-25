@@ -1,3 +1,5 @@
+$line: #424242;
+
 .sidebar {
 	padding: 1rem;
 	display: flex;
@@ -32,5 +34,36 @@
 	button:focus,
 	button:focus-visible {
 		outline: 4px auto -webkit-focus-ring-color;
+	}
+}
+
+.search {
+	height: 100px;
+	border-bottom: 1px solid $line;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 32px;
+
+	position: relative;
+
+	.icon {
+		position: absolute;
+		left: 47px;
+	}
+
+	input {
+		border: none;
+		height: 40px;
+		width: 550px;
+		background: #2c2c2c;
+		outline: none;
+		border-radius: 10px;
+		padding: 10px 10px 10px 50px;
+		font-size: 20px;
+	}
+	.management {
+		display: flex;
+		gap: 10px;
 	}
 }

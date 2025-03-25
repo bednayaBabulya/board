@@ -1,6 +1,6 @@
 import { CalendarDays, MessageCircleQuestion, UserRound } from 'lucide-react'
 import { Link } from 'react-router'
-import styles from './sidebar.module.scss'
+import styles from './components.module.scss'
 
 export function Sidebar() {
 	return (
